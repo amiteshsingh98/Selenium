@@ -1,0 +1,61 @@
+{
+  "id": "d0e4b064-9a7f-4b8d-a377-7b3a1ec27395",
+  "version": "2.0",
+  "name": "Google test",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "05023c71-b219-4ba8-be83-abcc771f315e",
+    "name": "Google",
+    "commands": [{
+      "id": "9b2ed6fc-cfdc-4259-bd83-0e59514791e9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49dbf416-6aad-4979-aa57-169684ed6437",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c20abd02-90e6-4388-b4c7-efce7dcf2c77",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "615e4787-648b-4078-a536-c83fd93d2f15",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Testing"
+    }]
+  }],
+  "suites": [{
+    "id": "17448f45-2934-43c4-a47f-a85629409f73",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["05023c71-b219-4ba8-be83-abcc771f315e"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
